@@ -38,7 +38,7 @@ public class BrokenLinks {
           conn.connect();
           int respCode = conn.getResponseCode();
           System.out.println(respCode);
-          a.assertTrue(respCode<400, "The link with Text "+link.getText()+" is broken with code of" +respCode);
+          a.assertTrue(respCode<400, "The link with Divya's Text "+link.getText()+" is broken with code of" +respCode);
          
      
       }
